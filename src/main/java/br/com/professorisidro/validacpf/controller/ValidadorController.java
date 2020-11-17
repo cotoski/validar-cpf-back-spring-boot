@@ -19,7 +19,7 @@ public class ValidadorController {
 		 return "{\"status\": \"invalido\"}";
 	}
 
-		@GetMapping("/validacpf")
+	@GetMapping("/")
 	public String validaIndex() {
 		
 			return "{\"mensagem\": \"Bem vindo a api do treinamento devops\"}";
